@@ -1,0 +1,48 @@
+{
+  "name": "grunt-debug-inspector",
+  "description": "Debug Grunt tasks with node-inspector.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Gioyik/grunt-debug-inspector",
+  "author": {
+    "name": "Giovanny Andres Gongora Granada",
+    "email": "gioyik@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gioyik/grunt-debug-inspector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romario333/grunt-debug-task/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "node-inspector",
+    "debug",
+    "task"
+  ],
+  "dependencies": {
+    "open": "0.0.4",
+    "node-inspector": "~0.6.1"
+  }
+}
